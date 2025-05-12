@@ -14,7 +14,7 @@ class MessageScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
 
-          children: [Text('Message')],
+          children: [Text('Tidak Ada Pesan')],
         ),
       ),
     );
