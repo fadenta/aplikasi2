@@ -1,4 +1,7 @@
+import 'package:aplikasi2/login_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get_storage/get_storage.dart';
 
 class HalProfil extends StatelessWidget {
   const HalProfil({super.key});
@@ -150,6 +153,16 @@ class HalProfil extends StatelessWidget {
                               fontFamily: 'Comic_Neue',
                             ),
                           ),
+                        ),
+
+                        ElevatedButton(
+                          onPressed: () {
+                            final box = GetStorage();
+                            box.remove('email');
+
+                            Get.offAll(() => LoginScreen());
+                          },
+                          child: Center(child: Text('Logout')),
                         ),
                       ],
                     ),
