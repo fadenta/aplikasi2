@@ -46,7 +46,7 @@ class _DashboardState extends State<Dashboard> {
         leftCornerRadius: 30,
         rightCornerRadius: 30,
         backgroundColor: Colors.blueAccent,
-        activeColor: Colors.white,
+        activeColor: const Color.fromARGB(255, 22, 21, 21),
         inactiveColor: Colors.white70,
         onTap: (index) => setState(() => _bottomNavIndex = index),
       ),

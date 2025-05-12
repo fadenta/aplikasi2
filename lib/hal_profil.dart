@@ -19,7 +19,7 @@ class HalProfil extends StatelessWidget {
           ),
         ),
         centerTitle: true,
-        backgroundColor: const Color.fromARGB(255, 153, 158, 158),
+        backgroundColor: const Color.fromARGB(255, 71, 137, 243),
         automaticallyImplyLeading: false,
       ),
       body: Center(
